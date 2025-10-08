@@ -1,0 +1,47 @@
+/* Projektin tyylit */
+
+:root {
+    --tausta: #3b4451;
+    --teksti: #eeeeee;
+    --bg-dark: #444444;
+    --bg-black: #000000;
+}
+
+header {
+    border-bottom: var(--teksti) solid 5px;
+}
+
+body {
+    background-color: var(--tausta);
+    color: var(--teksti);
+}
+
+html, body {
+    height: 100%;
+    
+}
+
+.showcase {
+    background-image: url('../img/showcase.jpg');
+    background-position: center;
+}
+
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.rotate {
+    rotate: -25deg
+}
+
+.separator-row td {
+  padding-top: 1.5rem;
+  border-top: 2px solid #6c757d;
+}
+
+/* Footer */
+footer {
+    border-top: var(--teksti) solid 5px;
+}
